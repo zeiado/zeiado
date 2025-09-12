@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Ziad Gamal</h1>
 <h3 align="center">Software Engineer | ASP.NET back end developer</h3>
 
-- 🔭 I’m currently working on **a saas based website**
+- 🔭 I’m currently working on **developing a business**
 
 - 🌱 I’m currently learning **.NET Web Api's ,Docker**
 
