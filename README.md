@@ -1,59 +1,89 @@
 <div align="center">
 
-<!-- Animated header banner -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=200&section=header&text=Zeiad%20Gamal&fontSize=60&fontColor=ffffff&fontAlignY=38&desc=Software%20Developer%20%7C%20Full-Stack%20%7C%20Mobile%20%7C%20AI&descAlignY=58&descSize=18&animation=fadeIn" width="100%"/>
+<!-- Header -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Zeiad%20Gamal&fontSize=62&fontColor=fff&fontAlignY=38&desc=Software%20Developer%20%E2%80%A2%20Full-Stack%20%E2%80%A2%20Mobile%20%E2%80%A2%20AI&descAlignY=60&descSize=16&animation=twinkling"/>
 
-<!-- Typing animation -->
+<!-- Typing SVG — self-hosted via demolab, very reliable -->
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=A78BFA&center=true&vCenter=true&width=600&lines=Building+AI-Powered+Solutions+%F0%9F%A4%96;Cross-Platform+Mobile+Developer+%F0%9F%93%B1;Full-Stack+%7C+.NET+%7C+Flutter+%7C+Python;Turning+Ideas+into+Real+Products+%F0%9F%9A%80" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=3000&pause=800&color=38BDF8&center=true&vCenter=true&width=580&lines=Building+AI-Powered+Accessibility+Tools+%F0%9F%A4%96;Flutter+%2B+.NET+%2B+Python+Developer;Competitive+Programmer+%26+Mentor;CS+Graduate+%7C+Egypt+%F0%9F%87%AA%F0%9F%87%AC" alt="Typing SVG" />
 </a>
 
 <br/>
+<br/>
 
-<!-- Social badges -->
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ziad-gamal-506b99222/)
-[![GitHub](https://img.shields.io/badge/GitHub-171515?style=for-the-badge&logo=github&logoColor=white)](https://github.com/zeiado)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:zeyadgamal2003@gmail.com)
-[![Location](https://img.shields.io/badge/📍_Benha,_Egypt-2D9CDB?style=for-the-badge)](https://maps.google.com/?q=Benha,Egypt)
+<!-- Profile views counter (very reliable) -->
+![Profile Views](https://komarev.com/ghpvc/?username=zeiado&style=for-the-badge&color=0ea5e9&label=PROFILE+VIEWS)
 
 </div>
 
+<br/>
+
 ---
 
-## 🧑‍💻 About Me
+## `$ whoami`
 
-```python
-class ZeiadGamal:
-    def __init__(self):
-        self.name         = "Zeiad Gamal Hashim"
-        self.role         = "Software Developer"
-        self.location     = "Benha, Qalyubia, Egypt 🇪🇬"
-        self.education    = "B.Sc. Computer Science — Al-Obour High Institute (2025)"
-        self.languages    = ["Arabic 🇸🇦 (Native)", "English 🇬🇧 (B2 Upper-Intermediate)"]
-        self.passion      = "Building accessible technology & AI-powered solutions"
+```dart
+class ZeiadGamal extends SoftwareDeveloper {
 
-    def current_focus(self):
-        return [
-            "🎓 DEPI Full-Stack Internship (.NET + ASP.NET Core)",
-            "📱 Cross-platform mobile apps with Flutter",
-            "🤖 AI/ML with YOLOv8 & Computer Vision",
-            "🌍 Making tech more accessible for everyone",
-        ]
+  final String name     = "Zeiad Gamal Hashim";
+  final String role     = "Full-Stack & Mobile Developer";
+  final String location = "Benha, Qalyubia, Egypt 🇪🇬";
+  final String degree   = "B.Sc. Computer Science — Class of 2025";
+  final String gpa      = "Good (2.9) | Graduation Project: A+";
+
+  List<String> get currentlyDoing => [
+    "📱 Building cross-platform apps with Flutter",
+    "🖥️  Full-Stack training at DEPI (.NET + ASP.NET Core)",
+    "🤖 Exploring AI/ML — YOLOv8 & Computer Vision",
+    "🌍 Making tech more accessible for everyone",
+  ];
+
+  String get mission =>
+    "Accessible technology is not a feature — it's a right.";
+}
 ```
+
+<br/>
 
 ---
 
 ## 🚀 Featured Projects
 
-<div align="center">
+<br/>
 
-| Project | Description | Stack |
-|:---|:---|:---|
-| 🦯 **[EyeLink](#)** | AI-powered accessibility app for visually impaired — real-time object detection & volunteer assistance | Flutter · YOLOv8 · Firebase · Agora RTC · Python |
-| 👁️ **[LiveKit Vision Demo](#)** | Real-time multimodal AI assistant with voice & video interaction | Flutter · LiveKit SDK · Gemini API · Python |
-| 💪 **[Fitness App](#)** | Role-based fitness management platform with payment gateway | .NET 8.0 · ASP.NET Core · EF · Stripe |
+### 🦯 EyeLink — AI Accessibility App *(Graduation Project · Grade A+)*
+> An AI-powered mobile app helping visually impaired individuals navigate the world independently.
 
-</div>
+- 🎯 Real-time **object detection** and **scene description** using YOLOv8
+- 📞 Live volunteer assistance via **Agora RTC** video calls
+- 🔊 Fully accessible UI with **voice commands** and speech integration
+- ☁️ Real-time data sync with **Firebase**
+
+`Flutter` `Python` `YOLOv8` `Firebase` `Agora RTC`
+
+---
+
+### 👁️ LiveKit Vision Demo *(Personal Project)*
+> A real-time multimodal AI assistant combining live video, voice, and Gemini's intelligence.
+
+- 🎥 **Adaptive frame sampling** for optimized real-time video AI
+- 🔐 Secure authentication & real-time communication pipeline
+- 📱 Cross-platform Flutter frontend
+
+`Flutter` `Python` `LiveKit SDK` `Gemini API`
+
+---
+
+### 💪 Fitness App *(DEPI Training Project)*
+> A full-featured fitness management platform built with clean enterprise architecture.
+
+- 👤 Role-based access control for trainers & members
+- 💳 Integrated **Stripe** payment gateway
+- 📊 Progress tracking dashboard
+
+`.NET 8.0` `ASP.NET Core` `Entity Framework` `SQL Server` `Stripe`
+
+<br/>
 
 ---
 
@@ -61,96 +91,88 @@ class ZeiadGamal:
 
 <div align="center">
 
-### 📱 Mobile & Frontend
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
-![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+### Languages
+[![My Skills](https://skillicons.dev/icons?i=python,cs,dart,js,php&theme=dark)](https://skillicons.dev)
 
-### 🖥️ Backend & Web
-![C#](https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=csharp&logoColor=white)
-![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
-![ASP.NET](https://img.shields.io/badge/ASP.NET_Core-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+### Frameworks & Platforms
+[![My Skills](https://skillicons.dev/icons?i=flutter,dotnet,fastapi&theme=dark)](https://skillicons.dev)
 
-### 🤖 AI / ML
-![YOLOv8](https://img.shields.io/badge/YOLOv8-00FFFF?style=for-the-badge&logo=yolo&logoColor=black)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
+### AI / ML
+[![My Skills](https://skillicons.dev/icons?i=tensorflow,opencv&theme=dark)](https://skillicons.dev)
+&nbsp;`YOLOv8`
 
-### 🗄️ Databases & Tools
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
-![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+### Databases & Cloud
+[![My Skills](https://skillicons.dev/icons?i=firebase,mysql,mssql&theme=dark)](https://skillicons.dev)
+
+### Tools & DevOps
+[![My Skills](https://skillicons.dev/icons?i=git,github,vscode,visualstudio&theme=dark)](https://skillicons.dev)
 
 </div>
+
+<br/>
 
 ---
 
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=zeiado&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=a78bfa&icon_color=a78bfa&text_color=ffffff&rank_icon=github" height="165"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=zeiado&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=a78bfa&text_color=ffffff" height="165"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=zeiado&show_icons=true&theme=github_dark&hide_border=true&title_color=38bdf8&icon_color=38bdf8&text_color=e2e8f0&bg_color=0d1117&rank_icon=github&include_all_commits=true&count_private=true" height="160"/>
+  &nbsp;
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=zeiado&layout=compact&theme=github_dark&hide_border=true&title_color=38bdf8&text_color=e2e8f0&bg_color=0d1117&langs_count=7" height="160"/>
 </div>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=zeiado&theme=tokyonight&hide_border=true&background=0d1117&stroke=a78bfa&ring=a78bfa&fire=ff6b6b&currStreakLabel=ffffff&dates=888888" width="55%"/>
+  <img src="https://streak-stats.demolab.com?user=zeiado&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=38bdf8&ring=38bdf8&fire=f472b6&currStreakLabel=e2e8f0&dates=64748b&sideLabels=e2e8f0" width="52%"/>
 </div>
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=zeiado&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=a78bfa&line=a78bfa&point=ff6b6b" width="90%"/>
-</div>
-
----
-
-## 🏆 Achievements & Certifications
-
-<div align="center">
-
-🥇 **Graduation Project — Grade A+**  › EyeLink AI Accessibility App  
-📜 **Modern JavaScript: ES6 and Beyond** › Mahara-Tech / ITI (May 2024)  
-📜 **Building Web Apps with PHP & MySQL** › Mahara-Tech / ITI (May 2024)  
-🏅 **Competitive Programming Level 2** › Coach Academy  
-🎓 **AI Fundamentals** › Zewail City of Science, Technology & Innovation (2024)  
-💼 **DEPI Full-Stack Internship** › Digital Egypt Pioneers Initiative — Ministry of Communications
-
-</div>
-
----
-
-## 🌱 Experience & Volunteering
-
-<div align="center">
-
-| Role | Organization | Impact |
-|:---|:---|:---|
-| 👨‍🏫 **Mentor & Member** | ICPC Obour Community | Coached students in competitive programming & algorithms |
-| 🧒 **Programming Instructor** | Children's Coding Program | Taught Scratch, HTML/CSS & Python to young learners |
-| 💼 **Full-Stack Intern** | DEPI – Ministry of Communications | Built .NET apps, clean architecture, Agile practices |
-| 🔬 **AI Trainee** | Zewail City | ML, Computer Vision & Python for AI |
-
-</div>
-
----
-
-<div align="center">
-
-### 💬 Let's Connect & Build Something Amazing!
-
-[![LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ziad-gamal-506b99222/)
-[![Email Me](https://img.shields.io/badge/Drop_an_Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:zeyadgamal2003@gmail.com)
 
 <br/>
 
-> *"Accessible technology is not a feature — it's a right."*  
-> — Driven by the mission behind **EyeLink** 🦯
+---
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=120&section=footer&animation=fadeIn" width="100%"/>
+## 🏅 Certifications & Training
+
+| Badge | Certification | Issuer | Year |
+|:---:|:---|:---|:---:|
+| 🏆 | **DEPI Full-Stack Developer Internship** | Digital Egypt Pioneers Initiative — MoC | 2024–25 |
+| 🤖 | **AI Fundamentals** | Zewail City of Science & Technology | 2024 |
+| 📜 | **Modern JavaScript: ES6 and Beyond** | Mahara-Tech / ITI | 2024 |
+| 📜 | **Web Apps with PHP & MySQL** | Mahara-Tech / ITI | 2024 |
+| 🧠 | **Competitive Programming — Level 2** | Coach Academy | — |
+
+<br/>
+
+---
+
+## 🤝 Volunteering & Community
+
+<div align="center">
+
+| Role | Where | What I Did |
+|:---|:---|:---|
+| 👨‍🏫 **Mentor & Member** | ICPC Obour Community | Coached algorithms, organized mock contests, built a learning culture |
+| 🧒 **Programming Instructor** | Children's Coding Program | Taught Scratch, HTML/CSS & Python through project-based learning |
+
+</div>
+
+<br/>
+
+---
+
+## 🌐 Let's Connect
+
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Ziad%20Gamal-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ziad-gamal-506b99222/)
+[![GitHub](https://img.shields.io/badge/GitHub-zeiado-171515?style=for-the-badge&logo=github&logoColor=white)](https://github.com/zeiado)
+[![Email](https://img.shields.io/badge/Email-zeyadgamal2003%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:zeyadgamal2003@gmail.com)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-01278747645-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/201278747645)
+
+<br/>
+
+> *"Accessible technology is not a feature — it's a right."*
+
+<br/>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&animation=twinkling"/>
 
 </div>
