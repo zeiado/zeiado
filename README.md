@@ -180,10 +180,6 @@ An AI nutrition companion for university students, with personalized meal recomm
   <img src="https://streak-stats.demolab.com?user=zeiado&theme=tokyonight&hide_border=true&background=0d1117&stroke=a78bfa&ring=a78bfa&fire=ff6b6b&currStreakLabel=ffffff&dates=888888" width="55%"/>
 </div>
 
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=zeiado&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=a78bfa&line=a78bfa&point=ff6b6b" width="95%"/>
-</div>
-
 <img src="assets/divider.svg" width="100%" alt=""/>
 
 ## 🏆 Experience & Achievements
