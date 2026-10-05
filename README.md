@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=220&section=header&text=Zeiad%20Gamal&fontSize=64&fontColor=ffffff&fontAlignY=36&desc=Software%20Engineer%20%C2%B7%20AI%20Systems%20%C2%B7%20Full-Stack%20%C2%B7%20Mobile&descAlignY=58&descSize=18&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=220&section=header&text=Zeiad%20Gamal&fontSize=64&fontColor=ffffff&fontAlignY=36&desc=Software%20Engineer%20%C2%B7%20AI%20Systems%20%C2%B7%20Full-Stack%20%C2%B7%20Mobile&descAlignY=58&descSize=18&animation=twinkling" width="100%"/>
 
 <a href="https://git.io/typing-svg">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=A78BFA&center=true&vCenter=true&width=640&lines=Building+AI+agents+that+survive+failure+%F0%9F%A4%96;Geospatial+%26+computer+vision+%F0%9F%9B%B0%EF%B8%8F;Full-stack+%C2%B7+React+%C2%B7+FastAPI+%C2%B7+.NET+%C2%B7+Flutter;Turning+ideas+into+shipped+products+%F0%9F%9A%80" alt="Typing SVG" />
@@ -15,13 +15,18 @@
 
 </div>
 
----
+<img src="assets/divider.svg" width="100%" alt=""/>
 
 ## 👋 About Me
 
 I'm a software engineer from Egypt 🇪🇬 who likes building things that hold up when they leave the demo. Lately that means **reliable AI agent backends**, **satellite and computer-vision pipelines**, and **bilingual (Arabic/English) web and mobile apps** that real businesses use.
 
 My graduation project, **EyeLink**, was an AI accessibility app for visually impaired people, and it earned an **A+**. Since then I've worked across the stack, from Postgres checkpointing and Docker deployments to Flutter apps and React frontends.
+
+<div align="center">
+  <img src="assets/terminal.svg" width="760" alt="Animated terminal: whoami, projects, and current status"/>
+</div>
+<br/>
 
 <table>
 <tr>
@@ -44,7 +49,7 @@ My graduation project, **EyeLink**, was an AI accessibility app for visually imp
 </tr>
 </table>
 
----
+<img src="assets/divider.svg" width="100%" alt=""/>
 
 ## 🚀 Featured Projects
 
@@ -139,7 +144,7 @@ An AI nutrition companion for university students, with personalized meal recomm
 
 </details>
 
----
+<img src="assets/divider.svg" width="100%" alt=""/>
 
 ## 🛠️ Tech Stack
 
@@ -162,7 +167,7 @@ An AI nutrition companion for university students, with personalized meal recomm
 
 </div>
 
----
+<img src="assets/divider.svg" width="100%" alt=""/>
 
 ## 📊 GitHub Stats
 
@@ -179,7 +184,7 @@ An AI nutrition companion for university students, with personalized meal recomm
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=zeiado&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=a78bfa&line=a78bfa&point=ff6b6b" width="95%"/>
 </div>
 
----
+<img src="assets/divider.svg" width="100%" alt=""/>
 
 ## 🏆 Experience & Achievements
 
@@ -193,7 +198,7 @@ An AI nutrition companion for university students, with personalized meal recomm
 | 🏅 | **Competitive Programming Level 2** | Coach Academy |
 | 📜 | **Modern JavaScript (ES6+)** · **PHP & MySQL Web Apps** | Mahara-Tech / ITI |
 
----
+<img src="assets/divider.svg" width="100%" alt=""/>
 
 <div align="center">
 
@@ -208,6 +213,6 @@ I'm open to collaborations, freelance work, and full-time roles in **AI engineer
 
 > *"Accessible technology is not a feature, it's a right."*
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=120&section=footer&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=120&section=footer&animation=twinkling" width="100%"/>
 
 </div>
