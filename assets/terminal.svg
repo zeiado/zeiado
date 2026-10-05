@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="286" viewBox="0 0 760 286" role="img" aria-label="Animated terminal introducing Zeiad Gamal">
+  <style>
+    text { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; font-size: 14px; }
+    .p { fill: #a78bfa; font-weight: 700; }
+    .cmd { fill: #e6edf3; }
+    .out { fill: #9da7b3; }
+    .dir { fill: #79c0ff; }
+    .ok { fill: #7ee787; }
+    .title { fill: #7d8590; font-size: 12px; }
+  </style>
+  <rect x="0.5" y="0.5" width="759" height="285" rx="10" fill="#0d1117" stroke="#30363d"/>
+  <path d="M0.5 36.5h759" stroke="#30363d"/>
+  <circle cx="22" cy="18" r="6" fill="#ff5f56"/>
+  <circle cx="42" cy="18" r="6" fill="#ffbd2e"/>
+  <circle cx="62" cy="18" r="6" fill="#27c93f"/>
+  <text x="380" y="22" text-anchor="middle" class="title">zeiad@github: ~</text>
+  <g>
+    <animate attributeName="opacity" values="1;1;0" keyTimes="0;0.95;1" dur="14s" repeatCount="indefinite"/>
+  <text x="28" y="72" class="p">$</text>
+  <clipPath id="c1"><rect x="46" y="57" width="0" height="22">
+    <animate attributeName="width" values="0;0;70;70" keyTimes="0;0.036;0.086;1" dur="14s" repeatCount="indefinite"/>
+  </rect></clipPath>
+  <text x="46" y="72" class="cmd" clip-path="url(#c1)">whoami</text>
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.1;0.112;1" dur="14s" repeatCount="indefinite"/>
+    <text x="28" y="96" class="out">Zeiad Gamal · software engineer · Benha, Egypt</text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.14;0.152;1" dur="14s" repeatCount="indefinite"/>
+    <text x="28" y="132" class="p">$</text>
+  </g>
+  <clipPath id="c2"><rect x="46" y="117" width="0" height="22">
+    <animate attributeName="width" values="0;0;120;120" keyTimes="0;0.186;0.257;1" dur="14s" repeatCount="indefinite"/>
+  </rect></clipPath>
+  <text x="46" y="132" class="cmd" clip-path="url(#c2)">ls projects/</text>
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.271;0.283;1" dur="14s" repeatCount="indefinite"/>
+    <text x="28" y="156" class="dir">agent-runner/  sat-analysis/  ddi-prediction/  autoflow/  geovision/  weqaya/</text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.31;0.322;1" dur="14s" repeatCount="indefinite"/>
+    <text x="28" y="192" class="p">$</text>
+  </g>
+  <clipPath id="c3"><rect x="46" y="177" width="0" height="22">
+    <animate attributeName="width" values="0;0;140;140" keyTimes="0;0.357;0.436;1" dur="14s" repeatCount="indefinite"/>
+  </rect></clipPath>
+  <text x="46" y="192" class="cmd" clip-path="url(#c3)">./status --now</text>
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.45;0.462;1" dur="14s" repeatCount="indefinite"/>
+    <circle cx="33" cy="211" r="4.5" fill="#7ee787"><animate attributeName="opacity" values="1;0.25;1" dur="1.6s" repeatCount="indefinite"/></circle>
+    <text x="46" y="216" class="ok">open to AI, backend and full-stack roles</text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.5;0.512;1" dur="14s" repeatCount="indefinite"/>
+    <text x="28" y="252" class="p">$</text>
+    <rect x="46" y="239" width="9" height="17" fill="#e6edf3"><animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1s" repeatCount="indefinite"/></rect>
+  </g>
+  </g>
+</svg>
