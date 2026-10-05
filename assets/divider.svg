@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="6" viewBox="0 0 1000 6" preserveAspectRatio="none">
+  <defs>
+    <linearGradient id="line" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#a78bfa" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#a78bfa" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#a78bfa" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="glint" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#ff6b6b" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#f5d0fe" stop-opacity="1"/>
+      <stop offset="1" stop-color="#ff6b6b" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="2.5" width="1000" height="1" fill="url(#line)"/>
+  <rect x="-180" y="1" width="180" height="4" rx="2" fill="url(#glint)">
+    <animate attributeName="x" values="-180;1000" dur="4s" repeatCount="indefinite"/>
+  </rect>
+</svg>
