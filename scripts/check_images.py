@@ -9,6 +9,7 @@ Checks absolute http(s) image URLs from Markdown `![](...)`, `<img src>` and
 
 from __future__ import annotations
 
+import os
 import re
 import sys
 import urllib.error
@@ -50,7 +51,8 @@ def check(url: str) -> tuple[bool, str]:
 
 def main(argv: list[str]) -> int:
     path = Path(argv[1])
-    failures = 0
+    failures = checked = skipped = 0
+    in_actions = bool(os.environ.get("GITHUB_ACTIONS"))
     for url in image_urls(path.read_text(encoding="utf-8")):
         if not url.startswith(("http://", "https://")):
             ok, detail = (path.parent / url).exists(), "local file"
@@ -58,10 +60,16 @@ def main(argv: list[str]) -> int:
             ok, detail = check(url)
             if not ok and "/zeiado/output/" in url and "404" in detail:
                 print(f"SKIP  {url}  (output branch not published yet)")
+                skipped += 1
                 continue
         print(f"{'OK  ' if ok else 'FAIL'}  {url}  ({detail})")
+        if not ok and in_actions:
+            print(f"::error title=Broken image::{url} ({detail})")
         failures += not ok
+        checked += 1
     print(f"\n{failures} broken image(s)")
+    if in_actions:
+        print(f"::notice title=README images::{checked - failures} of {checked} load, {skipped} skipped")
     return 1 if failures else 0
 
 

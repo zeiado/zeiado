@@ -379,12 +379,15 @@ def main(argv: list[str]) -> int:
     (out / "stats.svg").write_text(render_stats(stats, name), encoding="utf-8")
     (out / "top-langs.svg").write_text(render_languages(stats.languages), encoding="utf-8")
     (out / "streak.svg").write_text(render_streak(stats, now.date()), encoding="utf-8")
-    print(
+    summary = (
         f"stars={stats.stars} commits={stats.commits} prs={stats.pull_requests} "
         f"issues={stats.issues} repos={stats.repos} contributions={stats.total_contributions} "
         f"current_streak={stats.current_streak.length} longest_streak={stats.longest_streak.length} "
-        f"languages={[lang.name for lang in stats.languages]}"
+        f"languages={', '.join(f'{lang.name} {lang.percent}%' for lang in stats.languages)}"
     )
+    # In GitHub Actions, also show the numbers as an annotation on the run page.
+    prefix = "::notice title=Profile stats::" if os.environ.get("GITHUB_ACTIONS") else ""
+    print(prefix + summary)
     return 0
 
 
