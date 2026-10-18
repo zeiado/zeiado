@@ -23,7 +23,6 @@ RAW = {
         "followers": {"totalCount": 12},
         "pullRequests": {"totalCount": 40},
         "issues": {"totalCount": 17},
-        "repositoriesContributedTo": {"totalCount": 3},
     },
     "repos": [
         {"name": "a", "isPrivate": False, "stargazerCount": 5, "languages": {"edges": [
@@ -78,6 +77,12 @@ class SummaryTests(unittest.TestCase):
         self.assertEqual((s.stars, s.pull_requests, s.issues, s.repos, s.followers), (7, 40, 17, 2, 12))
         self.assertEqual(s.commits, 20)
         self.assertEqual(s.total_contributions, 20)
+        self.assertEqual(s.contributions_this_year, 20)
+
+    def test_this_year_uses_the_latest_year_only(self) -> None:
+        raw = {**RAW, "years": [calendar(date(2025, 3, 1), [4, 4]), calendar(date(2026, 3, 1), [1, 2])]}
+        s = stats.summarize(raw, date(2026, 3, 2))
+        self.assertEqual((s.total_contributions, s.contributions_this_year), (11, 3))
 
     def test_languages_ranked_by_bytes_with_percentages(self) -> None:
         langs = stats.top_languages(RAW["repos"])

@@ -41,7 +41,6 @@ query($login: String!) {
     followers { totalCount }
     pullRequests { totalCount }
     issues { totalCount }
-    repositoriesContributedTo(contributionTypes: [COMMIT, PULL_REQUEST, ISSUE, REPOSITORY]) { totalCount }
   }
 }
 """
@@ -104,7 +103,7 @@ class Stats:
     commits: int
     pull_requests: int
     issues: int
-    contributed_to: int
+    contributions_this_year: int
     repos: int
     followers: int
     total_contributions: int
@@ -221,7 +220,8 @@ def summarize(raw: dict[str, Any], today: date) -> Stats:
         commits=sum(y["totalCommitContributions"] for y in years),
         pull_requests=profile["pullRequests"]["totalCount"],
         issues=profile["issues"]["totalCount"],
-        contributed_to=profile["repositoriesContributedTo"]["totalCount"],
+        # The last entry is the current year (fetch() goes oldest to newest).
+        contributions_this_year=years[-1]["contributionCalendar"]["totalContributions"] if years else 0,
         repos=len(repos),
         followers=profile["followers"]["totalCount"],
         total_contributions=sum(y["contributionCalendar"]["totalContributions"] for y in years),
@@ -276,7 +276,7 @@ def render_stats(stats: Stats, name: str) -> str:
         ("Commits (all time)", stats.commits),
         ("Pull requests", stats.pull_requests),
         ("Issues", stats.issues),
-        ("Contributed to (last year)", stats.contributed_to),
+        ("Contributions this year", stats.contributions_this_year),
         ("Repositories", stats.repos),
     ]
     body = []
