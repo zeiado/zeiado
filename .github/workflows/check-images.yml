@@ -1,0 +1,23 @@
+name: Check README images
+
+# Every image in README.md must load. Third-party badge services go down, and a
+# broken image is easy to miss on your own profile.
+on:
+  pull_request:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "41 6 * * 1" # weekly
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - name: Fetch every image URL
+        run: python3 scripts/check_images.py README.md
