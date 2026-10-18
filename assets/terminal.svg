@@ -35,7 +35,7 @@
   <text x="46" y="132" class="cmd" clip-path="url(#c2)">ls projects/</text>
   <g opacity="0">
     <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.271;0.283;1" dur="14s" repeatCount="indefinite"/>
-    <text x="28" y="156" class="dir">agent-runner/  sat-analysis/  ddi-prediction/  autoflow/  geovision/  weqaya/</text>
+    <text x="28" y="156" class="dir">applytrack/  agent-runner/  sat-analysis/  ddi-prediction/  autoflow/  +2 more</text>
   </g>
   <g opacity="0">
     <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.31;0.322;1" dur="14s" repeatCount="indefinite"/>

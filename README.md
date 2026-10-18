@@ -3,7 +3,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=220&section=header&text=Zeiad%20Gamal&fontSize=64&fontColor=ffffff&fontAlignY=36&desc=Software%20Engineer%20%C2%B7%20AI%20Systems%20%C2%B7%20Full-Stack%20%C2%B7%20Mobile&descAlignY=58&descSize=18&animation=twinkling" width="100%"/>
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=A78BFA&center=true&vCenter=true&width=640&lines=Building+AI+agents+that+survive+failure+%F0%9F%A4%96;Geospatial+%26+computer+vision+%F0%9F%9B%B0%EF%B8%8F;Full-stack+%C2%B7+React+%C2%B7+FastAPI+%C2%B7+.NET+%C2%B7+Flutter;Turning+ideas+into+shipped+products+%F0%9F%9A%80" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=A78BFA&center=true&vCenter=true&width=640&lines=Building+AI+agents+that+survive+failure+%F0%9F%A4%96;Production-grade+APIs:+tested,+typed,+shipped+%E2%9C%85;Geospatial+%26+computer+vision+%F0%9F%9B%B0%EF%B8%8F;Full-stack+%C2%B7+React+%C2%B7+FastAPI+%C2%B7+.NET+%C2%B7+Flutter;Turning+ideas+into+shipped+products+%F0%9F%9A%80" alt="Typing SVG" />
 </a>
 
 <br/>
@@ -11,7 +11,7 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ziad-gamal-506b99222/)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:zeyadgamal2003@gmail.com)
 [![Location](https://img.shields.io/badge/Benha,_Egypt-2D9CDB?style=for-the-badge&logo=googlemaps&logoColor=white)](https://maps.google.com/?q=Benha,Egypt)
-![Profile views](https://komarev.com/ghpvc/?username=zeiado&style=for-the-badge&color=7c3aed&label=PROFILE+VIEWS)
+![Profile views](https://hits.sh/github.com/zeiado.svg?style=for-the-badge&label=Profile%20views&color=7c3aed&labelColor=302b63)
 
 </div>
 
@@ -33,6 +33,7 @@ My graduation project, **EyeLink**, was an AI accessibility app for visually imp
 <td valign="top" width="50%">
 
 **🔭 Currently**
+- 📋 Shipping **[ApplyTrack](https://github.com/zeiado/applytrack)**, a production-style API built through a full SDLC
 - 🤖 Building fault-tolerant AI agent infrastructure
 - 🛰️ Exploring geospatial ML (STAC, COGs, YOLOv8)
 - ⚙️ Tinkering with VMs and low-level systems in Rust & C
@@ -52,6 +53,23 @@ My graduation project, **EyeLink**, was an AI accessibility app for visually imp
 <img src="assets/divider.svg" width="100%" alt=""/>
 
 ## 🚀 Featured Projects
+
+### 📋 [ApplyTrack](https://github.com/zeiado/applytrack) · Spotlight
+A production-style REST API for tracking a job search: applications, a validated status workflow with full history, interviews, timezone-aware follow-up reminders, stats on what's working, and streamed CSV export.
+
+Built end to end like a team project: written requirements and design docs, 5 architecture decision records, one issue and reviewed PR per feature, **328 tests at 100% coverage** on PostgreSQL across Python 3.12 and 3.14, `mypy --strict`, CodeQL and dependency audits in CI, and tag-driven releases to GHCR with SBOM and provenance.
+
+- 🔒 Row locks so concurrent status changes can't corrupt history (proven by a test that fails without them)
+- ⚡ No N+1 queries: a test counts the SQL statements and requires 3 for 1 or 10 records
+- 🛡️ Login rate limiting checked before Argon2, CSV formula-injection and log-injection defences
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=flat-square&logo=sqlalchemy&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![Coverage](https://img.shields.io/badge/coverage-100%25-brightgreen?style=flat-square)
 
 <table>
 <tr>
@@ -163,7 +181,7 @@ An AI nutrition companion for university students, with personalized meal recomm
 <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,opencv,sklearn&theme=dark" />
 
 **DevOps & Tools**<br/>
-<img src="https://skillicons.dev/icons?i=docker,nginx,linux,git,github,vercel,vscode&theme=dark" />
+<img src="https://skillicons.dev/icons?i=docker,githubactions,nginx,linux,git,github,vercel,vscode&theme=dark" />
 
 </div>
 
@@ -172,12 +190,24 @@ An AI nutrition companion for university students, with personalized meal recomm
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=zeiado&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=a78bfa&icon_color=a78bfa&text_color=ffffff&rank_icon=github&count_private=true" height="165"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=zeiado&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=a78bfa&text_color=ffffff&langs_count=8" height="165"/>
+  <img src="https://raw.githubusercontent.com/zeiado/zeiado/output/stats.svg" height="180" alt="GitHub stats: stars, commits, pull requests, issues, repositories and total contributions"/>
+  <img src="https://raw.githubusercontent.com/zeiado/zeiado/output/top-langs.svg" height="180" alt="Most used languages"/>
 </div>
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=zeiado&theme=tokyonight&hide_border=true&background=0d1117&stroke=a78bfa&ring=a78bfa&fire=ff6b6b&currStreakLabel=ffffff&dates=888888" width="55%"/>
+  <img src="https://raw.githubusercontent.com/zeiado/zeiado/output/streak.svg" width="70%" alt="Contribution streak: total contributions, current streak and longest streak"/>
+</div>
+
+<sub>Generated from the GitHub API every 12 hours by <a href=".github/workflows/profile.yml">a workflow in this repo</a>, so the numbers are real and always load.</sub>
+
+### 🐍 Contribution Snake
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zeiado/zeiado/output/github-contribution-grid-snake-dark.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/zeiado/zeiado/output/github-contribution-grid-snake.svg"/>
+    <img src="https://raw.githubusercontent.com/zeiado/zeiado/output/github-contribution-grid-snake-dark.svg" alt="A snake eating my contribution graph"/>
+  </picture>
 </div>
 
 <img src="assets/divider.svg" width="100%" alt=""/>
