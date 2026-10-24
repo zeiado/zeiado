@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="467" height="215" viewBox="0 0 467 215" role="img" aria-label="Zeiad Gamal&#x27;s GitHub Stats: 2 stars, 242 commits">
+  <title>Zeiad Gamal&#x27;s GitHub Stats: 2 stars, 242 commits</title>
+  <style>
+    text { font-family: 'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif; }
+    .title { fill: #a78bfa; font-size: 18px; font-weight: 600; }
+    .label { fill: #e6edf3; font-size: 14px; }
+    .value { fill: #e6edf3; font-size: 14px; font-weight: 700; }
+    .muted { fill: #8b949e; font-size: 12px; }
+    /* Visible by default; the animation only adds a fade-in where it runs. */
+    .fade { animation: fade 0.6s ease-out both; }
+    @keyframes fade { from { opacity: 0; transform: translateX(-6px); } to { opacity: 1; transform: none; } }
+    @media (prefers-reduced-motion: reduce) { .fade { animation: none; } }
+  </style>
+  <rect x="0.5" y="0.5" width="466" height="214" rx="10" fill="#0d1117" stroke="#30363d"/>
+  <text x="25" y="35" class="title">Zeiad Gamal&#x27;s GitHub Stats</text>
+  <g class="fade" style="animation-delay:150ms"><circle cx="31" cy="63" r="4" fill="#a78bfa"/><text x="45" y="68" class="label">Total stars earned:</text><text x="300" y="68" class="value" text-anchor="end">2</text></g>
+  <g class="fade" style="animation-delay:270ms"><circle cx="31" cy="87" r="4" fill="#a78bfa"/><text x="45" y="92" class="label">Commits (all time):</text><text x="300" y="92" class="value" text-anchor="end">242</text></g>
+  <g class="fade" style="animation-delay:390ms"><circle cx="31" cy="111" r="4" fill="#a78bfa"/><text x="45" y="116" class="label">Pull requests:</text><text x="300" y="116" class="value" text-anchor="end">57</text></g>
+  <g class="fade" style="animation-delay:510ms"><circle cx="31" cy="135" r="4" fill="#a78bfa"/><text x="45" y="140" class="label">Issues:</text><text x="300" y="140" class="value" text-anchor="end">35</text></g>
+  <g class="fade" style="animation-delay:630ms"><circle cx="31" cy="159" r="4" fill="#a78bfa"/><text x="45" y="164" class="label">Contributions this year:</text><text x="300" y="164" class="value" text-anchor="end">1,230</text></g>
+  <g class="fade" style="animation-delay:750ms"><circle cx="31" cy="183" r="4" fill="#a78bfa"/><text x="45" y="188" class="label">Repositories:</text><text x="300" y="188" class="value" text-anchor="end">23</text></g>
+  <g class="fade" style="animation-delay:200ms"><circle cx="390" cy="112" r="52" fill="none" stroke="#a78bfa" stroke-opacity="0.25" stroke-width="7"/><circle cx="390" cy="112" r="52" fill="none" stroke="#a78bfa" stroke-width="7" stroke-linecap="round" stroke-dasharray="327" stroke-dashoffset="0" transform="rotate(-90 390 112)"><animate attributeName="stroke-dashoffset" from="327" to="0" dur="1.2s" fill="freeze"/></circle><text x="390" y="112" class="value" text-anchor="middle" style="font-size:22px">1,367</text><text x="390" y="132" class="muted" text-anchor="middle">contributions</text></g>
+</svg>
