@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="200" viewBox="0 0 700 200" role="img" aria-label="Contribution streak">
+  <title>Contribution streak</title>
+  <style>
+    text { font-family: 'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif; }
+    .title { fill: #a78bfa; font-size: 18px; font-weight: 600; }
+    .label { fill: #e6edf3; font-size: 14px; }
+    .value { fill: #e6edf3; font-size: 14px; font-weight: 700; }
+    .muted { fill: #8b949e; font-size: 12px; }
+    /* Visible by default; the animation only adds a fade-in where it runs. */
+    .fade { animation: fade 0.6s ease-out both; }
+    @keyframes fade { from { opacity: 0; transform: translateX(-6px); } to { opacity: 1; transform: none; } }
+    @media (prefers-reduced-motion: reduce) { .fade { animation: none; } }
+  </style>
+  <rect x="0.5" y="0.5" width="699" height="199" rx="10" fill="#0d1117" stroke="#30363d"/>
+  <text x="25" y="35" class="title">Contribution Streak</text>
+  <line x1="233" y1="55" x2="233" y2="175" stroke="#30363d"/>
+  <line x1="466" y1="55" x2="466" y2="175" stroke="#30363d"/>
+  <g class="fade" style="animation-delay:150ms"><text x="117" y="108" class="value" text-anchor="middle" style="font-size:28px">1,460</text><text x="117" y="160" class="label" text-anchor="middle">Total Contributions</text><text x="117" y="180" class="muted" text-anchor="middle">2023 – Present</text></g>
+  <g class="fade" style="animation-delay:300ms"><circle cx="350" cy="98" r="38" fill="none" stroke="#a78bfa" stroke-width="5"/><text x="350" y="66" text-anchor="middle" style="font-size:20px">🔥</text><text x="350" y="108" class="value" text-anchor="middle" style="font-size:28px;fill:#e6edf3">7</text><text x="350" y="160" class="label" text-anchor="middle" style="fill:#a78bfa;font-weight:600">Current Streak</text><text x="350" y="180" class="muted" text-anchor="middle">Oct 25, 2026 – Oct 31, 2026</text></g>
+  <g class="fade" style="animation-delay:450ms"><text x="583" y="108" class="value" text-anchor="middle" style="font-size:28px">156</text><text x="583" y="160" class="label" text-anchor="middle">Longest Streak</text><text x="583" y="180" class="muted" text-anchor="middle">Mar 3, 2026 – Aug 5, 2026</text></g>
+  <text x="680" y="35" class="muted" text-anchor="end">Updated Oct 31, 2026</text>
+</svg>

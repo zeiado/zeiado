@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="350" height="215" viewBox="0 0 350 215" role="img" aria-label="Most used languages">
+  <title>Most used languages</title>
+  <style>
+    text { font-family: 'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif; }
+    .title { fill: #a78bfa; font-size: 18px; font-weight: 600; }
+    .label { fill: #e6edf3; font-size: 14px; }
+    .value { fill: #e6edf3; font-size: 14px; font-weight: 700; }
+    .muted { fill: #8b949e; font-size: 12px; }
+    /* Visible by default; the animation only adds a fade-in where it runs. */
+    .fade { animation: fade 0.6s ease-out both; }
+    @keyframes fade { from { opacity: 0; transform: translateX(-6px); } to { opacity: 1; transform: none; } }
+    @media (prefers-reduced-motion: reduce) { .fade { animation: none; } }
+  </style>
+  <rect x="0.5" y="0.5" width="349" height="214" rx="10" fill="#0d1117" stroke="#30363d"/>
+  <text x="25" y="35" class="title">Most Used Languages</text>
+  <clipPath id="bar"><rect x="25" y="52" width="300" height="8" rx="4"/></clipPath><g clip-path="url(#bar)" class="fade"><rect x="25.00" y="52" width="131.40" height="8" fill="#3178c6"/><rect x="156.40" y="52" width="83.10" height="8" fill="#3572A5"/><rect x="239.50" y="52" width="30.60" height="8" fill="#e34c26"/><rect x="270.10" y="52" width="20.70" height="8" fill="#00B4AB"/><rect x="290.80" y="52" width="11.40" height="8" fill="#00ADD8"/><rect x="302.20" y="52" width="10.20" height="8" fill="#f1e05a"/><rect x="312.40" y="52" width="9.60" height="8" fill="#7355dd"/><rect x="322.00" y="52" width="2.70" height="8" fill="#663399"/></g>
+  <g class="fade" style="animation-delay:150ms"><circle cx="30" cy="84" r="5" fill="#3178c6"/><text x="41" y="88" class="label" style="font-size:13px">TypeScript</text><text x="165" y="88" class="muted" text-anchor="end">43.8%</text></g>
+  <g class="fade" style="animation-delay:240ms"><circle cx="185" cy="84" r="5" fill="#3572A5"/><text x="196" y="88" class="label" style="font-size:13px">Python</text><text x="320" y="88" class="muted" text-anchor="end">27.7%</text></g>
+  <g class="fade" style="animation-delay:330ms"><circle cx="30" cy="110" r="5" fill="#e34c26"/><text x="41" y="114" class="label" style="font-size:13px">HTML</text><text x="165" y="114" class="muted" text-anchor="end">10.2%</text></g>
+  <g class="fade" style="animation-delay:420ms"><circle cx="185" cy="110" r="5" fill="#00B4AB"/><text x="196" y="114" class="label" style="font-size:13px">Dart</text><text x="320" y="114" class="muted" text-anchor="end">6.9%</text></g>
+  <g class="fade" style="animation-delay:510ms"><circle cx="30" cy="136" r="5" fill="#00ADD8"/><text x="41" y="140" class="label" style="font-size:13px">Go</text><text x="165" y="140" class="muted" text-anchor="end">3.8%</text></g>
+  <g class="fade" style="animation-delay:600ms"><circle cx="185" cy="136" r="5" fill="#f1e05a"/><text x="196" y="140" class="label" style="font-size:13px">JavaScript</text><text x="320" y="140" class="muted" text-anchor="end">3.4%</text></g>
+  <g class="fade" style="animation-delay:690ms"><circle cx="30" cy="162" r="5" fill="#7355dd"/><text x="41" y="166" class="label" style="font-size:13px">C#</text><text x="165" y="166" class="muted" text-anchor="end">3.2%</text></g>
+  <g class="fade" style="animation-delay:780ms"><circle cx="185" cy="162" r="5" fill="#663399"/><text x="196" y="166" class="label" style="font-size:13px">CSS</text><text x="320" y="166" class="muted" text-anchor="end">0.9%</text></g>
+</svg>
